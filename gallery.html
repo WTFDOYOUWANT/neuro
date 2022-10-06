@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Галерея</title>
+
+
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Montserrat:ital,wght@0,500;1,200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div id="background-image"></div>
+    <script type="text/javascript" src="scripts/gallery.js" defer></script>
+    <div class="container">
+        <h1>Рисующая нейросеть</h1>
+        <p id="bytic">Технологический центр Байтик</p>
+        <div class="photo_slider" id="photo_slider">
+            <img id="previous_slide" src="assets/gallery/examples/0.jpeg" alt="">
+                <img class="arrow" onClick="previousSlide();" id="left_arrow" src="assets/gallery/icons/left_arrow.png" alt="">
+
+                    <img id="current_slide" src="assets/gallery/examples/1.jpeg" alt="">
+                <img class="arrow" onClick="nextSlide();" id="right_arrow" src="assets/gallery/icons/right_arrow.png" alt="">
+            <img id="next_slide" src="assets/gallery/examples/2.jpeg" alt="">
+        </div>
+        <p id="description">жаловыалдыоадвлваывоалвылд двыалвыоадл ывалдвоалд</p>
+        <a href="request.html" class="submit">Попробовать</a>
+
+    </div>
+
+
+</body>
