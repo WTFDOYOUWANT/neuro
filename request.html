@@ -6,13 +6,13 @@
 
 
 
-    <link rel="stylesheet" href="css/request.css">
+    <link rel="stylesheet" href="static/css/request.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Montserrat:ital,wght@0,500;1,200&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="assets/request/logo.svg" alt="" id="logo">
+    <img src="static/img/logo.svg" alt="" id="logo">
     <div class="container">
         <div class="input">
             <h2>Введите свой запрос:</h2>
@@ -25,11 +25,10 @@
         </div>
         <div class="sensibility">
             <h2>Выберие, насколько нейросеть будет следовать запросу:</h2>
-            <input type="range">
+            <input type="range" min="5" max="15" value="10">
             <div id="percentage">
-                <p>0%</p>
-                <p class="percent">50%</p>
-                <p class="percent">100%</p>
+                <p id="five">5</p>
+                <p id="fifteen">15</p>
             </div>
 
         </div>
