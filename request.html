@@ -7,9 +7,14 @@
 
 
     <link rel="stylesheet" href="static/css/request.css">
+    <link rel="stylesheet" href="static/css/slider.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Montserrat:ital,wght@0,500;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="jquery-ui.css">
+    <script src="jquery-ui/external/jquery/jquery.js"></script>
+    <script src="jquery-ui.js"></script>
 </head>
 <body>
     <img src="static/img/logo.svg" alt="" id="logo">
@@ -23,16 +28,16 @@
             <p id="styles">Примеры стилей рисования: sketching, doodling, line art, polygon art,
                 realism, hyperrealism, cartoon</p>
         </div>
-        <div class="sensibility">
-            <h2>Выберие, насколько нейросеть будет следовать запросу:</h2>
-            <input type="range" min="5" max="15" value="10">
-            <div id="percentage">
-                <p id="five">5</p>
-                <p id="fifteen">15</p>
-            </div>
+        <h2>Выберие, насколько нейросеть будет следовать запросу:</h2>
+
+        <div class="slider-container">
+
+            <div id="request_slider" style="margin-top: 80px"></div>
+            <script src="static/js/slider.js"></script>
+
 
         </div>
-        <a href="result.html" class="submit">Искать</a>
+        <a href="result.html" class="submit">Нарисовать</a>
     </div>
 
 </body>

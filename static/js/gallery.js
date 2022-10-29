@@ -61,7 +61,7 @@ function goToSlide(n) {
     next_slide.src = 'static/img/gallery/examples/' + (nextSlideId) + '.jpeg';
 
     let description = document.getElementById('description');
-    description.textContent = descriptions[currentSlideId];
+    description.textContent = "Запрос к нейросети: " + descriptions[currentSlideId];
 }
 
 

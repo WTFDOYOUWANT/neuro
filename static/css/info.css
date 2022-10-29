@@ -65,9 +65,8 @@ p {
     text-decoration: none;
     padding: 10px 50px;
     color: white;
-    bottom: 10%;
-    right: 43%;
-    border-radius: 10px;
+    bottom: 3vh;
+    right: 43vw;
 }
 
 .submit:hover {

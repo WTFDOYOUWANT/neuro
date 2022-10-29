@@ -111,24 +111,11 @@ input[type='range']::-webkit-slider-thumb {
     text-decoration: none;
     padding: 10px 50px;
     color: white;
-    bottom: 10vh;
+    bottom: 3vh;
     right: 45vw;
-    border-radius: 10px;
 }
 
 
-#percentage p {
-    display: inline-block;
-    color: var(--light-light-gray);
-}
-
-#five {
-    float: left;
-}
-
-#fifteen{
-    float: right;
-}
 
 .submit:hover {
     box-shadow:0 0 20px  var(--main-color);
